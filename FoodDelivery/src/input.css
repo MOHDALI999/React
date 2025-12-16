@@ -1,17 +1,27 @@
-@import "tailwindcss";
-/* @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap'); */
-@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Playfair+Display:ital,wght@1,400..900&display=swap');
+/* TOP MOST - Google fonts import */
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@1,400..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@100..1000&family=Playfair+Display:wght@400..900&display=swap');
 
+/* Then Tailwind imports */
+@import "tailwindcss";
+
+/* Then theme variables */
 @theme {
   --font-playfair: "Playfair Display", sans-serif;
-  --font-dmsans: "DM Sans",sans-serif;
+  --font-dmsans: "DM Sans", sans-serif;
   --color-gray-custom: #474747;
   --color-red-custom: #AD343E;
+  --color-brown-custom: #2C2F24;
 }
 
+/* Then normal CSS */
 html {
   scrollbar-width: none;
   -ms-overflow-style: none;
   scroll-behavior: smooth;
+  background-color: #F9F9F7;
+  font-family: playfair;
 }
-
+body {
+  font-family: dmsans;
+}
