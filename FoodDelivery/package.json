@@ -17,7 +17,7 @@
     "@fortawesome/react-fontawesome": "^3.1.0",
     "@tailwindcss/cli": "^4.1.17",
     "@tailwindcss/vite": "^4.1.17",
-    "antd": "^5.28.1",
+    "antd": "^5.29.3",
     "lucide-react": "^0.553.0",
     "react": "^19.2.0",
     "react-dom": "^19.2.0",
