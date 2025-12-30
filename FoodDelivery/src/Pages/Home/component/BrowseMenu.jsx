@@ -9,10 +9,10 @@ export default function BrowseMenu() {
                 {menus.map((detail, index) => (
                     <div
                         key={index}
-                        className="p-8 border-2 border-[#DBDFD0] rounded-xl text-center flex flex-col justify-center align-middle items-center-safe gap-5 hover:bg-[#DBDFD0] hover:shadow-lg transition-shadow duration-300">
-                        <div className="w-fit rounded-full bg-[#F3F3F0] p-5">
+                        className="p-8 border-2 border-[#DBDFD0] rounded-xl text-center flex flex-col justify-center align-middle items-center-safe gap-5 hover:bg-[#eff0ec] hover:shadow-lg transition-shadow duration-300">
+                        <span className="w-fit rounded-full bg-[#e7e7d8] p-5">
                             {detail.icon}
-                        </div>
+                        </span>
                         <h5 className="text-brown-custom font-dmsans text-2xl font-bold tracking-[-1.5px]">
                             {detail.name}
                         </h5>

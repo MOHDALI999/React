@@ -5,6 +5,8 @@ const BrowseMenu = lazy(() => import("./component/BrowseMenu"));
 const Contact = lazy(() => import("./component/Contact"));
 const Fastfood = lazy(() => import("./component/Fastfood"));
 const Offer = lazy(() => import("./component/Offer"));
+const Testimonial = lazy(() => import("./component/Testimonial"));
+const Blog = lazy(() => import("./component/Blog"));
 
 export default function Home() {
   return (
@@ -14,9 +16,9 @@ export default function Home() {
           src="./bg.jpg"
           alt="Background"
           fetchPriority="high"
-          className="w-full  h-full lg:object-fill lg:inline hidden"
+          className="w-full  h-full lg:object-cover max-sm:inline max-sm:object-cover max-sm:object-top max-sm:h-100 lg:inline hidden"
         />
-        <div className="flex flex-col gap-7 p-10 text-start lg:absolute top-15 lg:text-center lg:top-1/5 lg:left-[28.2%] ">
+        <div className="flex flex-col gap-7 p-10 text-start lg:absolute top-15 lg:text-center lg:top-1/5 lg:left-[28.2%] max-sm:absolute ">
           <span className="lg:text-8xl md:text-8xl text-6xl font-playfair text-brown-custom max-sm:text-5xl">
             Best food for
             <br />
@@ -56,6 +58,15 @@ export default function Home() {
       <Suspense fallback={<div className="p-10 text-center">Loading...</div>}>
         <Fastfood />
       </Suspense>
+      {/* Testimonial page */}
+      <Suspense fallback={<div className="p-10 text-center">Loading...</div>}>
+        <Testimonial />
+      </Suspense>
+      {/* Blog page */}
+      <Suspense fallback={<div className="p-10 text-center">Loading...</div>}>
+        <Blog />
+      </Suspense>
+
     </div>
   );
 }

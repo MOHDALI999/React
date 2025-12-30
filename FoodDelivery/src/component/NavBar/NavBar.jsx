@@ -57,7 +57,7 @@ function NavBar() {
             ))}
           </ul>
 
-          <button className="hidden w-auto font-dmsans text-sm font-semibold border-1 rounded-full p-3 px-6 lg:inline cursor-pointer hover:bg-[#eff0ec]">
+          <button className="hidden w-auto font-dmsans text-sm font-semibold border rounded-full p-3 px-6 lg:inline cursor-pointer hover:bg-[#eff0ec]">
             Book A Table
           </button>
           <button

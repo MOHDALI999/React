@@ -2,7 +2,7 @@ import { fastfood } from "../../../assets/assets";
 
 export default function Fastfood() {
   return (
-    <div className="w-full p-10 pt-20 pb-20 lg:flex max-md:flex-col gap-5 lg:gap-15">
+    <div className="w-full p-10 pt-20 pb-10 max-sm:pb-20 lg:flex max-md:flex-col gap-5 lg:gap-15">
       <div className="lg:w-150 grid grid-cols-[0.4fr_0.4fr_0.4fr_0.4fr_0.4fr_0.4fr_0.4fr]  gap-3 lg:gap-4">
         {/* Left big image */}
         <div className="col-span-3 lg:col-span-4 max-sm:col-span-4">

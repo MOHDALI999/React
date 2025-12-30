@@ -1,10 +1,12 @@
-import React from 'react'
+import Contact from "../Home/component/Contact"
+import Promo from "./component/Promo"
+
 
 function About() {
   return (
     <div>
-        <h1 className='text-4xl'>This is About Pag</h1>
-        <h1 className='text-4xl'>This is not fair</h1>
+        <Contact hidden={"hidden"}/>
+        <Promo />
     </div>
   )
 }

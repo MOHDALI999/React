@@ -17,7 +17,7 @@
 /* Then normal CSS */
 html {
   scrollbar-width: none;
-  -ms-overflow-style: none;
+  -ms-overflow-style: none; 
   scroll-behavior: smooth;
   background-color: #f3f3ea;
   font-family: playfair;
@@ -25,3 +25,14 @@ html {
 body {
   font-family: dmsans;
 }
+
+/* hide scrollbar but keep scroll working */
+.no-scrollbar {
+  -ms-overflow-style: none;  /* IE & Edge */
+  scrollbar-width: none;     /* Firefox */
+}
+
+.no-scrollbar::-webkit-scrollbar {
+  display: none;             /* Chrome, Safari */
+}
+
