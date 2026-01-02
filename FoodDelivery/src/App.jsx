@@ -13,7 +13,7 @@ function App() {
           element: <DynamicTabs />,
         },
         {
-          path: "about",
+          path: "/about",
           element: <DynamicTabs />,
         },
         {
