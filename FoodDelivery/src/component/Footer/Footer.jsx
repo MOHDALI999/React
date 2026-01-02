@@ -11,7 +11,7 @@ function Footer() {
           <Link to={"/"}>
             <div className="flex items-center gap-2">
               <img
-                src="./japanese-food.svg"
+                src="./Image/japanese-food.svg"
                 alt="Bistro Bliss"
                 className="w-14 h-14"
               />

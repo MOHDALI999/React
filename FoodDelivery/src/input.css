@@ -36,3 +36,37 @@ body {
   display: none;             /* Chrome, Safari */
 }
 
+.transparentbutton{
+    @apply 
+   w-auto 
+   p-3 
+   px-6 
+   font-dmsans
+   text-sm 
+   font-semibold 
+   border 
+   rounded-full
+   cursor-pointer
+   hover:bg-[#eff0ec]
+   max-sm:p-3
+   max-sm:text-xs 
+
+}
+
+.redbutton{
+  @apply  w-auto 
+          p-3 
+          px-6
+          font-dmsans 
+          text-sm 
+          font-semibold 
+          rounded-full 
+        bg-red-custom
+        text-white 
+          cursor-pointer 
+        hover:bg-[#8B2A33]
+          max-sm:p-3
+          max-sm:text-xs 
+
+}
+

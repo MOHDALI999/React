@@ -1,10 +1,10 @@
-import foodImg from  "/foodimg.jpg"
+import foodImg from  "/Image/foodimg.jpg"
 import { contactdetails } from "../../../assets/assets"; 
 
 function Contact({hidden}) {
 
   return (
-    <div className="w-full p-10 lg:flex lg:flex-wrap gap-20 lg:gap-20">
+    <div className="w-full p-10 max-sm:pt-10 max-sm:pb-10 max-sm:p-5 lg:flex lg:flex-wrap gap-20 lg:gap-20">
       <div className="lg:w-140 relative max-sm:p-5 mb-20 max-sm:mb-50">
         <img
           src={foodImg}
@@ -35,7 +35,7 @@ function Contact({hidden}) {
           Our story began with a vision to create a unique dining experience that merges fine dining, exceptional service, and a vibrant ambiance. Rooted in city's rich culinary culture, we aim to honor our local roots while infusing a global palate.
         </p>
         <p className="text-base">At place, we believe that dining is not just about food, but also about the overall experience. Our staff, renowned for their warmth and dedication, strives to make every visit an unforgettable event.</p>
-        <button className={`font-dmsans text-sm font-semibold border rounded-full p-3 px-6 cursor-pointer hover:bg-[#eff0ec] ${hidden}`}>
+        <button className={`transparentbutton ${hidden}`}>
           More About Us
         </button>
       </div>

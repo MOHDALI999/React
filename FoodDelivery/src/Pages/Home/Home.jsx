@@ -13,12 +13,12 @@ export default function Home() {
     <div>
       <div className="w-auto h-auto relative">
         <img
-          src="./bg.jpg"
+          src="./Image/bg.jpg"
           alt="Background"
           fetchPriority="high"
           className="w-full  h-full lg:object-cover max-sm:inline max-sm:object-cover max-sm:object-top max-sm:h-100 lg:inline hidden"
         />
-        <div className="flex flex-col gap-7 p-10 text-start lg:absolute top-15 lg:text-center lg:top-1/5 lg:left-[28.2%] max-sm:absolute ">
+        <div className="flex flex-col gap-7 p-10 max-sm:pt-10 max-sm:pb-10 max-sm:p-5 text-start lg:absolute top-15 lg:text-center lg:top-1/5 lg:left-[28.2%] max-sm:absolute max-sm:top-0 ">
           <span className="lg:text-8xl md:text-8xl text-6xl font-playfair text-brown-custom max-sm:text-5xl">
             Best food for
             <br />
@@ -32,10 +32,10 @@ export default function Home() {
             in our welcoming, culinary haven.
           </h5>
           <div className="w-full space-x-3 max-sm:space-x-1">
-            <button className=" w-auto font-dmsans text-sm font-semibold rounded-full p-3 px-6 bg-red-custom text-white cursor-pointer hover:bg-[#8B2A33]">
+            <button className="redbutton">
               Book A Table
             </button>
-            <button className="w-auto font-dmsans text-sm font-semibold border rounded-full p-3 px-6 cursor-pointer hover:bg-[#eff0ec]">
+            <button className="transparentbutton">
               Explore Menu
             </button>
           </div>

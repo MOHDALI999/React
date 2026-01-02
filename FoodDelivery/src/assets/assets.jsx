@@ -47,22 +47,22 @@ export const menus = [
 
 export const offers = [
   {
-    offerImage: "./foodimg.jpg",
+    offerImage: "./Image/foodimg.jpg",
     title: "Caterings",
     details: "In the new era of technology we look in the future with certainty for life.",
   },
   {
-    offerImage: "./Panner.jpg",
+    offerImage: "./Image/Panner.jpg",
     title: "Birthdays",
     details: "In the new era of technology we look in the future with certainty for life.",
   },
   {
-    offerImage: "./Panner.jpg",
+    offerImage: "./Image/Panner.jpg",
     title: "Weddings",
     details: "In the new era of technology we look in the future with certainty for life.",
   },
   {
-    offerImage: "./foodimg.jpg",
+    offerImage: "./Image/foodimg.jpg",
     title: "Events",
     details: "In the new era of technology we look in the future with certainty for life.",
   },
@@ -134,16 +134,16 @@ export const citys = [
 
 export const images = [
   {
-    foodimage: "./Panner.jpg",
+    foodimage: "./Image/Panner.jpg",
   },
   {
-    foodimage: "./Panner.jpg",
+    foodimage: "./Image/Panner.jpg",
   },
   {
-    foodimage: "./Panner.jpg",
+    foodimage: "./Image/Panner.jpg",
   },
   {
-    foodimage: "./Panner.jpg",
+    foodimage: "./Image/Panner.jpg",
   },
 ];
 
@@ -166,28 +166,28 @@ export const testimonial = [
   {
     title: "“The best restaurant”",
     details: `Last night, we dined at place and were simply blown away. From the moment we stepped in, we were enveloped in an inviting atmosphere and greeted with warm smiles.`,
-    profileimg: "/foodimg.jpg",
+    profileimg: "/Image/foodimg.jpg",
     name: "Sophire Robson",
     place: "Los Angeles, CA",
   },
   {
     title: "“Simply delicious”",
     details: `Place exceeded my expectations on all fronts. The ambiance was cozy and relaxed, making it a perfect venue for our anniversary dinner. Each dish was prepared and beautifully presented.`,
-    profileimg: "/foodimg.jpg",
+    profileimg: "/Image/foodimg.jpg",
     name: "Matt Cannon",
     place: "San Diego, CA",
   },
   {
     title: "“One of a kind restaurant”",
     details: `The culinary experience at place is first to none. The atmosphere is vibrant, the food - nothing short of extraordinary. The food was the highlight of our evening. Highly recommended.`,
-    profileimg: "/foodimg.jpg",
+    profileimg: "/Image/foodimg.jpg",
     name: "Andy Smith",
     place: "San Francisco, CA",
   },
   {
     title: "“One of a kind restaurant”",
     details: `The culinary experience at place is first to none. The atmosphere is vibrant, the food - nothing short of extraordinary. The food was the highlight of our evening. Highly recommended.`,
-    profileimg: "/foodimg.jpg",
+    profileimg: "/Image/foodimg.jpg",
     name: "Andy Smith",
     place: "San Francisco, CA",
   },
@@ -209,5 +209,23 @@ export const blog = [
   {
     date: "January 3, 2023",
     title: "How to prepare the perfect french fries in an air fryer",
+  },
+]
+
+export const promo = [
+  {
+      icon : "./Image/menu.png",
+      title : "Multi Cuisine",
+      details : "In the new era of technology we look in the future with certainty life.",
+  },
+  {
+      icon : "./Image/order.png",
+      title : "Easy To Order",
+      details : "In the new era of technology we look in the future with certainty life.",
+  },
+  {
+      icon : "./Image/timer.png",
+      title : "Fast Delivery",
+      details : "In the new era of technology we look in the future with certainty life.",
   },
 ]

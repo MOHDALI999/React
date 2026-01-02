@@ -3,7 +3,7 @@ import { testimonial } from "../../../assets/assets"
 function Testimonial() {
 
     return (
-        <div className="w-auto h-auto p-10 pt-20 pb-20 bg-white font-dmsans flex flex-col gap-12">
+        <div className="w-auto h-auto p-10 pt-20 pb-20max-sm:pt-10 max-sm:pb-10 max-sm:p-5  bg-white font-dmsans flex flex-col gap-12">
             <h1 className="text-5xl text-center font-playfair font-medium max-sm:text-4xl">
                 What Our Customers Say
             </h1>

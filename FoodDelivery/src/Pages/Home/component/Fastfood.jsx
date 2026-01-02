@@ -2,12 +2,12 @@ import { fastfood } from "../../../assets/assets";
 
 export default function Fastfood() {
   return (
-    <div className="w-full p-10 pt-20 pb-10 max-sm:pb-20 lg:flex max-md:flex-col gap-5 lg:gap-15">
+    <div className="w-full p-10 pt-20 pb-10 max-sm:pt-10 max-sm:pb-10 max-sm:p-5 lg:flex max-md:flex-col gap-5 lg:gap-15">
       <div className="lg:w-150 grid grid-cols-[0.4fr_0.4fr_0.4fr_0.4fr_0.4fr_0.4fr_0.4fr]  gap-3 lg:gap-4">
         {/* Left big image */}
         <div className="col-span-3 lg:col-span-4 max-sm:col-span-4">
           <img
-            src="/foodimg.jpg"
+            src="/Image/foodimg.jpg"
             alt=""
             className="w-full h-full max-md:h-full lg:h-[85%] object-cover rounded-xl"
           />
@@ -16,13 +16,13 @@ export default function Fastfood() {
         {/* Right stacked images */}
         <div className="lg:mt-4  col-span-3 lg:col-span-3 grid grid-rows-[0.2fr_0.2fr] lg:grid-rows-2 gap-4 max-sm:col-span-3">
           <img
-            src="/foodimg.jpg"
+            src="/Image/foodimg.jpg"
             alt=""
             className="w-full h-80 object-cover rounded-xl"
           />
           <div className="col-span-1 lg:col-span-1">
             <img
-              src="/foodimg.jpg"
+              src="/Image/foodimg.jpg"
               alt=""
               className="w-full h-65 object-cover rounded-xl"
             />
@@ -30,7 +30,7 @@ export default function Fastfood() {
         </div>
       </div>
       <div className="mt-45 max-lg:mt-10 max-sm:mt-10 flex flex-col gap-5  items-start font-dmsans lg:flex-1 max-sm:p-0 ">
-        <h2 className="font-playfair text-4xl lg:text-5xl max-sm:text-3xlfont-medium leading-12">
+        <h2 className="font-playfair text-4xl lg:text-5xl max-sm:text-3xl font-medium lg:leading-12">
           Fastest Food
           <span className="hidden lg:inline">
             <br />

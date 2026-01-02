@@ -35,7 +35,7 @@ function NavBar() {
       <header>
         <nav className="w-full min-h-20 lg:min-h-25 flex justify-between lg:justify-around items-center bg-[#F9F9F7]  pl-10 pr-10 lg:pl-0 lg:pr-0 sticky top-0">
           <div className="flex justify-center items-center gap-1.5 lg:gap-3">
-            <img src="./logo.svg" alt="Bistro Bliss" className="w-10 h-10" />
+            <img src="./Image/logo.svg" alt="Bistro Bliss" className="w-10 h-10" />
             <span className="text-2xl font-semibold font-playfair italic text-gray-custom lg:text-4xl lg:inline">
               Bistro Bliss
             </span>
@@ -57,7 +57,7 @@ function NavBar() {
             ))}
           </ul>
 
-          <button className="hidden w-auto font-dmsans text-sm font-semibold border rounded-full p-3 px-6 lg:inline cursor-pointer hover:bg-[#eff0ec]">
+          <button className="transparentbutton max-lg:hidden">
             Book A Table
           </button>
           <button

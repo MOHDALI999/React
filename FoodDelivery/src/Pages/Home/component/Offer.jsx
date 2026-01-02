@@ -3,7 +3,7 @@ import {offers} from "../../../assets/assets"
 function Offer() {
 
   return (
-    <div className="w-full h-full p-10 pt-20 pb-20 flex flex-col gap-15 bg-white">
+    <div className="w-full h-full p-10 pt-20 pb-20 max-sm:pt-10 max-sm:pb-10 max-sm:p-5 flex flex-col gap-15 bg-white">
         <h1 className="text-5xl max-sm:text-4xl font-playfair">We also offer unique <span className="max-sm:hidden"><br /></span>services for your events</h1>
         <div className="w-full h-full grid grid-cols-2 lg:grid-cols-4 max-sm:grid-cols-1 gap-10 lg:gap-10">
             {

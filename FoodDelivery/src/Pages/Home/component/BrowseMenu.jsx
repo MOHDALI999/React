@@ -1,7 +1,7 @@
 import { menus } from "../../../assets/assets";
 export default function BrowseMenu() {
     return (
-        <div className="h-auto bg-white flex flex-col gap-10 p-10 pt-20 pb-20 max-md:gap-10">
+        <div className="h-auto bg-white flex flex-col gap-10 p-10 pt-20 pb-20 max-sm:pt-10 max-sm:pb-10 max-sm:p-5 max-md:gap-10">
             <h3 className="text-5xl font-medium text-center max-sm:text-4xl">
                 Browse Our Menu
             </h3>
